@@ -1,0 +1,1 @@
+Counts from 0000000000 - 9990000000 skipping any numbers that repeat them selfs more then 3 times like 333,444 anywhere in the number. You can change this to a higher number. However, only see higher numbers a few times. 
