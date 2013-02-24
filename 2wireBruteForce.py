@@ -5,7 +5,7 @@
 
 import sys
 
-MAX_INT = 999000000
+MAX_INT = 9990000000
 BAD_PATTERNS = {x * 3 for x in '0123456789'}
 # Use xrange for Python 2.7
 for number in range(MAX_INT):
