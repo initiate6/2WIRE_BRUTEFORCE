@@ -9,7 +9,7 @@ MAX_INT = 999000000
 BAD_PATTERNS = {x * 3 for x in '0123456789'}
 # Use xrange for Python 2.7
 for number in range(MAX_INT):
-    int_string = str(number).rjust(9, '0')
+    int_string = str(number).rjust(10, '0')
     if any(pattern in int_string for pattern in BAD_PATTERNS):
         continue
-    print ( str(first) + str(number).rjust(9, '0') )
+    print ( str(number).rjust(10, '0') )
